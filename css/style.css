@@ -24,6 +24,18 @@ button{
   background-color: rgba(45, 134, 45, 0.9) !important;
 }
 
+.logo-img{
+  width: 20%;
+  height: 2%;
+}
+
+@media only screen and (max-width: 414px) {
+  .logo-img {
+    width: 100%;
+    height: 2%;
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
