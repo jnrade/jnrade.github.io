@@ -37,4 +37,18 @@ $('a[href*="#"]')
   });
   // end smooth scroll
 
-  
+  // Back to top button
+  $(document).ready(function(){
+      $('body').append('<div id="toTop"><a href="#hero"><i class="fas fa-arrow-alt-circle-up fa-3x text-center text-warning"></i></a></div>');
+      $(window).scroll(function () {
+      if ($(this).scrollTop() != 0) {
+        $('#toTop').fadeIn();
+      } else {
+        $('#toTop').fadeOut();
+      }
+    }); 
+    $('#toTop').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
