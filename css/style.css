@@ -107,13 +107,18 @@ hr{
   margin: auto;
 }
 
-.form-control{
+.form-control {
   background-color: #e3e6e8;
   border-radius: 0;
 }
 
+.modal-content{
+  color: #fff;
+  background-color: #343a40;
+}
+
 .social-icons {
-  padding: 2%;
+  /*padding: 2%;*/
   color: #fff;
 }
 
@@ -122,10 +127,18 @@ hr{
   color: #ffe699;
 }
 
+#toTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
 .footer-container {
   color: #fff;
   background-color: #343a40;
-  height: 15vh;
+  height: 17vh;
   width: 100%;
   padding-top: 2%;
   padding-right: 0;
