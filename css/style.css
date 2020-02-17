@@ -1,0 +1,107 @@
+/*html {
+  scroll-behavior: smooth;
+}*/
+body, html {
+  height: 100%;
+  font-family: "Arial";
+}
+
+a{
+  color: #2d862d;
+}
+
+a:hover{
+  color: #ffe699 !important;
+  /*color: #ffc107 !important;*/
+  transition: 0.8s;
+}
+
+button{
+ transition: 0.5s; 
+}
+
+.bg-dark {
+  background-color: rgba(45, 134, 45, 0.9) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.custom-icon {
+  transition: all 0.3s linear;
+}
+
+.custom-icon:hover {
+  transform: scale(1.1);
+}
+
+.custom-icon-padding {
+  padding: 2%;
+}
+
+#hero {
+  /*height: 100vh;*/
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:778px) {
+  #hero {
+    height: 50vh;
+    width: 100%;
+    padding: 10%;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #hero {
+    height: 40vh;
+  }
+}
+
+#about {
+  padding: 8%;
+}
+
+.card-img-top {
+  transition: 0.5s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+#contact{
+  padding: 8%; 
+}
+
+hr{
+  border: 5px solid #ffc107;
+  width: 3%;
+  margin: auto;
+}
+
+.form-control{
+  background-color: #e3e6e8;
+  border-radius: 0;
+}
+
+.footer-container {
+  color: #fff;
+  background-color: #343a40;
+  height: 15vh;
+  width: 100%;
+  padding-top: 2%;
+  padding-right: 0;
+  padding-left: 12%;
+  margin-right: auto;
+  margin-left: auto;
+}
