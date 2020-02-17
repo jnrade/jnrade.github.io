@@ -97,7 +97,8 @@ button{
 }
 
 #contact{
-  padding: 8%; 
+  padding: 6%;
+  background-color: #454d54;
 }
 
 hr{
@@ -109,6 +110,15 @@ hr{
 .form-control{
   background-color: #e3e6e8;
   border-radius: 0;
+}
+
+.social-icons {
+  padding: 2%;
+}
+
+.social-icons:hover {
+  transition: 0.5s;
+  color: #ffe699;
 }
 
 .footer-container {
